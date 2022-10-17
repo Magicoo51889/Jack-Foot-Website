@@ -23,6 +23,7 @@ const Home: NextPage = () => {
         </p>
         <p className={styles.description}>
           I'm currently studying Computer Science, Physics and Product Design A-Level's and I'm hoping to go on to do a degree apprenticeship in software engineering.
+          <br/> I've also taken a key part in the development of my school's Greenpower racing car, which is a fully electric car that competes in the Greenpower Challenge. I was part of both Mechancial and Electrical Engineering elements of the car.
         </p>
         <p className={styles.description}>
           Below are some of my current projects, and achievements:
