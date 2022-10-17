@@ -73,9 +73,9 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Linkedin{' '}
+          {' '}
           <span className={styles.logoInvert}>
-            <Image src="/linkedin.svg" alt="Linkedin Logo" width={20} height={20} />
+            <Image src="/linkedin.svg" alt="Linkedin Logo" width={22.5} height={22.5} />
           </span>
         </a>
         <a
@@ -83,9 +83,9 @@ const Home: NextPage = () => {
         target="_blank"
         rel="noopener noreferrer"
         >
-          Github{' '}
+          {' '}
           <span className={styles.logoInvert}>
-            <Image src="/github.svg" alt="Github Logo" width={20} height={20}/>
+            <Image src="/github.svg" alt="Github Logo" width={22.5} height={22.5}/>
           </span>
         </a>
         <a
@@ -93,9 +93,9 @@ const Home: NextPage = () => {
         target="_blank"
         rel="noopener noreferrer"
         >
-          Twitter{' '}
+          {' '}
           <span className={styles.logoInvert}>
-            <Image src="/twitter.svg" alt="Twitter Logo" width={20} height={20}/>
+            <Image src="/twitter.svg" alt="Twitter Logo" width={22.5} height={22.5}/>
           </span>
         </a>
       </footer>
