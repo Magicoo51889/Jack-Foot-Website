@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Link } from 'react-router-dom'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {

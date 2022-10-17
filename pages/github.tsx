@@ -19,6 +19,45 @@ const GithubP = () => {
                     <ul><a href='/nodejs'>Node.js</a></ul>
                 </ul>
             </header>
+
+            <main className={styles.main}>
+                <h1 className={styles.title}>
+                    Placeholder
+                </h1>
+            </main>
+
+            <footer className={styles.footer}> {/*Links to socials*/}
+        <a
+          href="https://www.linkedin.com/in/jackfoot51889/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          <span className={styles.logoInvert}>
+            <Image src="/linkedin.svg" alt="Linkedin Logo" width={22.5} height={22.5} />
+          </span>
+        </a>
+        <a
+        href="https://github.com/Magicoo51889"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          {' '}
+          <span className={styles.logoInvert}>
+            <Image src="/github.svg" alt="Github Logo" width={22.5} height={22.5}/>
+          </span>
+        </a>
+        <a
+        href="https://twitter.com/jjaffff"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          {' '}
+          <span className={styles.logoInvert}>
+            <Image src="/twitter.svg" alt="Twitter Logo" width={22.5} height={22.5}/>
+          </span>
+        </a>
+      </footer>
         </div>
     )
 }
