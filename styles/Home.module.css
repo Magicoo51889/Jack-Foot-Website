@@ -4,6 +4,7 @@
   /* hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none;
   scrollbar-width: none;
+  text-rendering: optimizeLegibility;
 }
 
 .container::-webkit-scrollbar {
@@ -18,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  filter: blur(50wv, 100px);
 }
 
 .header {
@@ -58,10 +60,21 @@
   text-decoration: underline;
 }
 
+.animatedGradientTextFadeTitle{
+  background-image: linear-gradient(180deg,#007cf0,#00dfd8);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  
 }
 
 .title,
@@ -123,12 +136,13 @@
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
+.card a,
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
@@ -167,4 +181,42 @@
     filter: invert(1);
     margin: 0.5rem;
   }
+}
+
+.gradientSpinner{
+  position: absolute;
+  left: 37vw;
+  top: 20vh;
+	z-index: -1;
+	width: 210px;
+	height: 500px;
+	transform: rotate(138deg);
+	border:1px transparent #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0px transparent inset,
+	            0 -5px 20px 0px rgba(1,197,255,0.4) inset,
+	            0 0 20px 0px rgba(0,150,130,0.4) inset,
+	            0 5px 20px 0px rgba(162,58,236,0.4) inset,
+	            0 5px 20px 5px rgba(1,197,255,0.4),
+	            0 0 20px 5px rgba(0,150,130,0.4),
+	            0 -5px 20px 2px rgba(162,58,236,0.4);
+	            
+	            animation:gradient 10s linear infinite;
+}
+
+@keyframes gradient{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+.flatten {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px -22px;
+  transform: scaleY(0.75);
 }
