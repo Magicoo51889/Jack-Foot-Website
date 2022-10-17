@@ -74,6 +74,13 @@
   max-width: 800px;
 }
 
+.horizontalGrid {
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  flex-direction: row;
+  border-spacing: 1em;
+}
 .card {
   margin: 1rem;
   padding: 1.5rem;

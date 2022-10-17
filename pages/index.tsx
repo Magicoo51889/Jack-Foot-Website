@@ -20,6 +20,49 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Hey I'm Jack, I'm a student and I love to <code className={styles.code}>code!</code> I've been coding for 2 years and I'm currently learning Next.js and React.js, to make dynamic websites.
         </p>
+        <div className={styles.horizontalGrid}>
+          <a>
+            <p className={styles.card}>
+              Typescript
+              <span className={styles.logoInvert}>
+                <Image src="/typescript.svg" alt="Typescript" width={15} height={15} />
+              </span>
+            </p>
+          </a>
+          <a>
+            <p className={styles.card}>
+              Node.js
+              <span className={styles.logoInvert}>
+                <Image src={"/nodedotjs.svg"} alt="Node.js Logo" width={15} height={15} />
+              </span>
+            </p>
+          </a>
+          <a>
+            <p className={styles.card}>
+              Github
+              <span className={styles.logoInvert}>
+                <Image src={"/github.svg"} alt="Github Logo" width={15} height={15} />
+              </span>
+            </p>
+          </a>
+          <a>
+            <p className={styles.card}>
+              C#
+              <span className={styles.logoInvert}>
+                <Image src="/csharp.svg" alt="C#" width={15} height={15}/>
+              </span>
+            </p>
+          </a>
+          <a>
+            <p className={styles.card}>
+              Fusion360
+              <span className={styles.logoInvert}>
+                <Image src="/autodesk.svg" alt="autodesk logo" width={15} height={15}/>
+              </span>
+            </p>
+          </a>
+        </div>
+        
       </main>
 
       <footer className={styles.footer}> {/*Links to socials*/}
