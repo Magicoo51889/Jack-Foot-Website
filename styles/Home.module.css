@@ -12,6 +12,16 @@
   align-items: center;
 }
 
+.header {
+  display: flex;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 5rem;
+  text-align: center;
+  flex-direction: row;
+
+}
+
 .footer {
   display: flex;
   flex: 1;
