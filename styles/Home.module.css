@@ -1,5 +1,4 @@
 .container {
-  padding: 2rem;
   overflow: none;
   
   /* hide scrollbar for IE, Edge and Firefox */
@@ -13,7 +12,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -34,13 +33,14 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
 }
 
 .footer a {
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,10 +70,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-  width: 50%;
+  width: 80%;
 }
 
 .code {
@@ -100,7 +100,7 @@
   align-items: center;
   max-width: auto;
   flex-direction: row;
-  border-spacing: 1em;
+  border-spacing: 1rem;
 }
 .card {
   margin: 1rem;
@@ -133,8 +133,14 @@
 }
 
 .logo {
-  height: 1em;
+  height: 1rem;
   margin-left: 0.5rem;
+}
+
+.logoInvert {
+  height: 1rem;
+  margin: 0.5rem;
+  line-height: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -155,10 +161,10 @@
   }
   .code {
     background: #111;
-    margin-left: 0.5em;
+    margin-left: 0.5rem;
   }
   .logoInvert img {
     filter: invert(1);
-    margin-left: 0.5em;
+    margin: 0.5rem;
   }
 }
