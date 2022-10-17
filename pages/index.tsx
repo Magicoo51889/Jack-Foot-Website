@@ -22,9 +22,7 @@ const Home: NextPage = () => {
           <br/> I'm a student and I love to code! I've been coding for 2 years and I'm currently learning Next.js and React.js, to make dynamic websites and high performance applications.
         </p>
         <p className={styles.description}>
-          I'm currently studying Computer Science, Physics and Product Design A-Level's and I'm hoping to go on to do a degree apprenticeship in software engineering. I have spent many an hour tinkering with my computer too, trying to maximise the performance of my computer through a variety of benchmarks, praying it doesn't crash. 
-          <br/> I'm also a passionate moutain biker, and go out when I can to the Forest of Dean, and 417 Bikepark and I'm continuing to improve my skills. 
-          <br/> I've also taken part in the Greenpower Electric Car Challenge, where I was part of the team that designed and built the Marling Greenpower car, which competed in the 2022 season, and placed very well in its first race! I'm currently working on building a custom ECU for the car to be able to gain valuable race data on track, which will allow us to improve the car for the next season, though it's still in very early days.
+          I'm currently studying Computer Science, Physics and Product Design A-Level's and I'm hoping to go on to do a degree apprenticeship in software engineering.
         </p>
         <p className={styles.description}>
           Below are some of my current projects, and achievements:
