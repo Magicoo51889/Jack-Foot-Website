@@ -1,5 +1,14 @@
 .container {
-  padding: 0 2rem;
+  padding: 2rem;
+  overflow: none;
+  
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .main {
@@ -10,6 +19,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 5rem;
+  text-align: center;
+  flex-direction: row;
+
 }
 
 .footer {
@@ -76,6 +95,8 @@
 
 .horizontalGrid {
   display: flex;
+  overflow: auto;
+  white-space: nowrap;
   align-items: center;
   max-width: auto;
   flex-direction: row;
@@ -121,6 +142,10 @@
     width: 100%;
     flex-direction: column;
   }
+  .horizontalGrid{
+    width: 100%;
+    flex-direction: row;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -130,8 +155,10 @@
   }
   .code {
     background: #111;
+    margin-left: 0.5em;
   }
   .logoInvert img {
     filter: invert(1);
+    margin-left: 0.5em;
   }
 }
