@@ -190,9 +190,9 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("/200w.gif");
+  background-image: url("/ungulatingColour.gif");
   background-size: cover;
   background-position: center;
   
-  filter: blur(100vw) brightness(0.75) contrast(1.5);
+  filter: blur(100vw);
 }
