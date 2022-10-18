@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         
         <p className={styles.description}>
           Hey I'm Jack.
-          <br/> I'm a student and I love to code! I've been coding for 2 years and I'm currently learning Next.js and React.js, to make dynamic websites and high performance applications.
+          <br/> I'm a student and I love coding. I've been coding since 2021 and I'm currently learning Next.js and React.js, to make dynamic websites and high performance applications.
         </p>
         <p className={styles.description}>
           I'm currently studying Computer Science, Physics and Product Design A-Level's and I'm hoping to go on to do a degree apprenticeship in software engineering.
