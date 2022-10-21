@@ -26,10 +26,12 @@
   display: flex;
   margin: 1rem;
   line-height: 1.15;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   flex-direction: row;
-
+  justify-content: space-between;
+  height: 4rem;
+  list-style-type: none;
 }
 
 .footer {

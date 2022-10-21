@@ -55,7 +55,7 @@ const Home: NextPage = () => {
               </span>
             </p>
           </a>
-          <a>
+          <a href='/cSharp'>
             <p className={styles.card}>
               C# 
               <span className={styles.logoInvert}>
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
               </span>
             </p>
           </a>
-          <a>
+          <a href='/autodeskConfusion360'>
             <p className={styles.card}>
               Fusion360 
               <span className={styles.logoInvert}>
