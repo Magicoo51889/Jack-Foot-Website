@@ -1,15 +1,4 @@
-.container {
-  overflow: none;
-  
-  /* hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  text-rendering: optimizeLegibility;
-}
 
-.container::-webkit-scrollbar {
-  display: none;
-}
 
 .main {
   min-height: 100vh;
@@ -26,10 +15,12 @@
   display: flex;
   margin: 1rem;
   line-height: 1.15;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   flex-direction: row;
-
+  justify-content: space-between;
+  height: 4rem;
+  list-style-type: none;
 }
 
 .footer {
@@ -42,7 +33,7 @@
 }
 
 .footer a {
-  padding: 1rem;
+  padding: 0.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,6 +116,8 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  overflow: hidden;
+  backdrop-filter: blur(200px);
 }
 
 .card:hover,
@@ -190,7 +183,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("/ungulatingColour.gif");
+  background-image: url("../public/ungulatingColour.gif");
   background-size: cover;
   background-position: center;
   

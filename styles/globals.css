@@ -24,3 +24,16 @@ a {
     background: black;
   }
 }
+
+* {
+  overflow: none;
+  
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  text-rendering: optimizeLegibility;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
