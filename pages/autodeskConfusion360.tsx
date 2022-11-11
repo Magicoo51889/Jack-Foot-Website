@@ -20,6 +20,14 @@ const autodeskP = () => {
                 <ul><a href='/cSharp'>C#</a></ul>
           </ul>
         </header>
+
+        <div className={styles.background}>
+          <div className={styles.smallmdball}/>
+          <div className={styles.massiveball}/>
+          <div className={styles.smallball}/>
+          <div className={styles.mediumball}/>
+          <div className={styles.largeball}/>
+        </div>
         
         <main className={styles.main}>
           <h1 className={styles.title}>
