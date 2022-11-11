@@ -16,6 +16,14 @@ const {pagename} = () => {
               <ul><a href='directory'>{relevant links to pages}</a></ul>
           </ul>
         </header>
+
+        <div className={styles.background}>
+          <div className={styles.smallmdball}/>
+          <div className={styles.massiveball}/>
+          <div className={styles.smallball}/>
+          <div className={styles.mediumball}/>
+          <div className={styles.largeball}/>
+        </div>
         
         <footer className={styles.footer}> {/*Links to socials*/}
         <a

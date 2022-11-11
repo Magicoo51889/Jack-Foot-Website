@@ -153,6 +153,93 @@
   line-height: 1rem;
 }
 
+.background {
+  /* filter: blur(100vw); */
+  position: absolute;
+  z-index: -1;
+}
+
+.smallball {
+  position: inherit;
+  transform-origin: center;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 2rem solid #0070f3;
+  background-color: #00dfd8;
+  left: 30rem;
+  animation: ball-movement 5s ease-in-out infinite;
+}
+
+.smallmdball {
+  position: inherit;
+  transform-origin: center;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  border: 2rem solid #0070f3;
+  background-color: #00dfd8;
+  left: 70rem;
+  animation: ball-movement 5s ease-in-out infinite;
+}
+
+.mediumball {
+  position: inherit;
+  transform-origin: center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  border: 2rem solid #0070f3;
+  background-color: rgb(255, 0, 85);
+  top: 10rem;
+  left: 70rem;
+  animation: ball-movement 6s ease-in-out infinite;
+}
+
+.largeball{
+  position: inherit;
+  transform-origin: center;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+  border: 2rem solid #0070f3;
+  background-color: #4000ff;
+  top: 20rem;
+  left: 60rem;
+  animation: ball-movement 7s ease-in-out infinite;
+}
+
+.massiveball{
+  position: inherit;
+  transform-origin: center;
+  height: 50rem;
+  width: 50rem;
+  border-radius: 50%;
+  border: 2rem solid #0070f3;
+  background-color: #7300ff;
+  top: 5rem;
+  left: 30rem;
+  animation: ball-movement 8s ease-in-out infinite;
+}
+
+@keyframes ball-movement {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(10em, 0);
+  }
+  50% {
+    transform: translate(10em, 10em);
+  }
+  75% {
+    transform: translate(0, 10em);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -177,18 +264,4 @@
     filter: invert(1);
     margin: 0.5rem;
   }
-}
-
-.backgroundGif{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-image: url("../public/ungulatingColour.gif");
-  background-size: cover;
-  background-position: center;
-  
-  filter: blur(100vw);
 }
