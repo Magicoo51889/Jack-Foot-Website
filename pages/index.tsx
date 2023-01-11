@@ -80,7 +80,7 @@ const Home: NextPage = () => {
           <br/> I'm a student and I love coding. I've been coding since 2021 and I'm currently learning Next.js and React.js, to make dynamic websites and high performance applications.
         </p>
         <p className={styles.description}>
-          I'm currently studying Computer Science, Physics and Product Design A-Level's and I'm hoping to go on to do a degree apprenticeship in software engineering.
+          I'm currently studying Computer Science, Physics and Product Design A-Levels.
           <br/> I've also taken a key part in the development of my school's Greenpower racing car, which is a fully electric car that competes in the Greenpower Challenge. I was part of both Mechancial and Electrical Engineering elements of the car.
         </p>        
       </main>
