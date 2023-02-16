@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+let SocialIconSize = 44;
+
 const NodejsP = () => {
   return (
     <div className={styles.container}>
@@ -11,14 +13,51 @@ const NodejsP = () => {
         <link rel="icon" href="/JF.ico" />
       </Head>
       
-      <header className={styles.header}> 
-        <ul>
-          <ul><a href='/'>Home</a></ul>
-          <ul><a href='/github'>Github</a></ul>
-          <ul><a href='/typescript'>Typescript</a></ul>
-          <ul><a href='/cSharp'>C#</a></ul>
-          <ul><a href='/autodeskConfusion360'>Autodesk</a></ul>
-        </ul>
+      <header className={styles.globalnav}> 
+          <ul className={styles.globalnavList}>
+            <ul className={styles.globalnavItem}>
+              <a href='/'>
+                <span>
+                  Home
+                </span>
+              </a>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <a href='/typescript'>
+                <span>
+                  Typescript
+                </span>
+              </a>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <a href='/nodejs'>
+                <span>
+                  Node.js
+                </span>
+              </a>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <a href='/github'>
+                <span>
+                  Github
+                </span>
+              </a>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <a href='/cSharp'>
+                <span>
+                  C#
+                </span>
+              </a>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <a href='autodeskConfusion360'>
+                <span>
+                  Autodesk
+                </span>
+              </a>
+            </ul>
+          </ul>
       </header>
 
       <div className={styles.background}>
@@ -46,7 +85,7 @@ const NodejsP = () => {
         >
           {' '}
           <span className={styles.logoInvert}>
-            <Image src="/linkedin.svg" alt="Linkedin Logo" width={22.5} height={22.5} />
+            <Image src="/linkedin.svg" alt="Linkedin Logo" width={SocialIconSize} height={SocialIconSize} />
           </span>
         </a>
         <a
@@ -56,7 +95,7 @@ const NodejsP = () => {
         >
           {' '}
           <span className={styles.logoInvert}>
-            <Image src="/github.svg" alt="Github Logo" width={22.5} height={22.5}/>
+            <Image src="/github.svg" alt="Github Logo" width={SocialIconSize} height={SocialIconSize}/>
           </span>
         </a>
         <a
@@ -66,7 +105,7 @@ const NodejsP = () => {
         >
           {' '}
           <span className={styles.logoInvert}>
-            <Image src="/twitter.svg" alt="Twitter Logo" width={22.5} height={22.5}/>
+            <Image src="/twitter.svg" alt="Twitter Logo" width={SocialIconSize} height={SocialIconSize}/>
           </span>
         </a>
       </footer>
