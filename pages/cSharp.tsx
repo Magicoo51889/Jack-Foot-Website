@@ -33,6 +33,9 @@ const CSharpP = () => {
             <h1 className={styles.title}>
                 C# & .NET
             </h1>
+            <p className={styles.subtitle}>
+              This page is still in development! Thanks for your patience.
+            </p>
         </main>
 
         <footer className={styles.footer}> {/*Links to socials*/}
