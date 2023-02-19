@@ -65,7 +65,6 @@ const Home: NextPage = () => {
       </header>
 
       <main className={styles.main}>
-        <div className={styles.backgroundGif}></div>
         <h1 className={styles.title}>
           Jack Foot
         </h1>
@@ -125,17 +124,15 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           I'm currently studying Computer Science, Physics and Product Design A-Levels.
           <br/> I've also taken a key part in the development of my school's Greenpower racing car, which is a fully electric car that competes in the Greenpower Challenge. I was part of both Mechancial and Electrical Engineering elements of the car.
-        </p>        
+        </p>
       </main>
 
       <footer className={styles.footer}> {/*Links to socials*/}
-      
         <a
           href="https://www.linkedin.com/in/jackfoot51889/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {' '}
           <span className={styles.logoInvert}>
             <Image src="/linkedin.svg" alt="Linkedin Logo" width={SocialIconSize} height={SocialIconSize} />
           </span>
