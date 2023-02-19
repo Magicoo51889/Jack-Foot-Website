@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Tilt from 'react-parallax-tilt'
 
 let SocialIconSize = 44;
+let CardTiltAngle:number = 20;
+let CardPerspective:number = 2500;
 
 const Home: NextPage = () => {
   return (
@@ -62,14 +64,6 @@ const Home: NextPage = () => {
           </ul>
       </header>
 
-      <div className={styles.background}>
-        <div className={styles.smallmdball}/>
-        <div className={styles.massiveball}/>
-        <div className={styles.smallball}/>
-        <div className={styles.mediumball}/>
-        <div className={styles.largeball}/>
-      </div>
-
       <main className={styles.main}>
         <div className={styles.backgroundGif}></div>
         <h1 className={styles.title}>
@@ -77,7 +71,7 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
-          <Tilt tiltMaxAngleX={10} perspective={2000} gyroscope={true}>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <a href='/typescript'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
@@ -86,7 +80,7 @@ const Home: NextPage = () => {
               </p>
             </a>
           </Tilt>
-          <Tilt tiltMaxAngleX={10} perspective={2000} gyroscope={true}>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <a href='/nodejs'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
@@ -95,7 +89,7 @@ const Home: NextPage = () => {
               </p>
             </a>
           </Tilt>
-          <Tilt tiltMaxAngleX={10} perspective={2000} gyroscope={true}>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <a href='/github'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
@@ -104,7 +98,7 @@ const Home: NextPage = () => {
               </p>
             </a>
           </Tilt>
-          <Tilt tiltMaxAngleX={10} perspective={2000} gyroscope={true}>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <a href='/cSharp'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
@@ -113,7 +107,7 @@ const Home: NextPage = () => {
               </p>
             </a>
           </Tilt>
-          <Tilt tiltMaxAngleX={10} perspective={2000} gyroscope={true}>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <a href='/autodeskConfusion360'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>

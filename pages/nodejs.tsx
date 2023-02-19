@@ -60,19 +60,11 @@ const NodejsP = () => {
           </ul>
       </header>
 
-      <div className={styles.background}>
-        <div className={styles.smallmdball}/>
-        <div className={styles.massiveball}/>
-        <div className={styles.smallball}/>
-        <div className={styles.mediumball}/>
-        <div className={styles.largeball}/>
-      </div>
-
       <main className={styles.main}>
           <h1 className={styles.title}>
               Node.js
           </h1>
-          <p className={styles.subtitle}>
+          <p className={styles.code}>
           This page is still in development! Thanks for your patience.
         </p>
       </main>
