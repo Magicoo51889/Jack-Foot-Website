@@ -47,9 +47,11 @@
   letter-spacing: normal;
   border-bottom: 1px solid #eaeaea;
   backdrop-filter: blur(20px);
+  overflow-x: scroll;
 }
 
 .globalnavList {
+  position: relative;
   cursor: default;
   align-self: center;
   text-align: left;
@@ -107,6 +109,7 @@
   background-color: #1D1D1F;
   align-self: center;
   justify-content: space-evenly;
+  z-index: 9998;
 }
 
 .footer a,

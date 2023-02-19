@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           <link rel="icon" href="/JF.ico" />
       </Head>
 
-      <header className={styles.globalnav}> 
+      <nav className={styles.globalnav}> 
           <ul className={styles.globalnavList}>
             <ul className={styles.globalnavItem}>
               <a href='/'>
@@ -61,8 +61,9 @@ const Home: NextPage = () => {
                 </span>
               </a>
             </ul>
+            
           </ul>
-      </header>
+      </nav>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
