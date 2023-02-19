@@ -74,7 +74,7 @@ const Home: NextPage = () => {
             <a href='/typescript'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src="/typescript.svg" alt="Typescript" width={45} height={45}/>
+                  <Image src="/typescript.svg" alt="Typescript Logo" width={45} height={45}/>
                 </span>
               </p>
             </a>
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
             <a href='/cSharp'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src="/csharp.svg" alt="C#" width={45} height={45}/>
+                  <Image src="/csharp.svg" alt="C# Logo" width={45} height={45}/>
                 </span>
               </p>
             </a>
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
             <a href='/autodeskConfusion360'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src="/autodesk.svg" alt="autodesk logo" width={45} height={45}/>
+                  <Image src="/autodesk.svg" alt="Autodesk Logo" width={45} height={45}/>
                 </span>
               </p>
             </a>
