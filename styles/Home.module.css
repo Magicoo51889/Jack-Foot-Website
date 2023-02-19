@@ -194,7 +194,9 @@
 
 .horizontalGrid {
   position: relative;
-  display: flex;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 columns. To add more add more '1fr's */
   overflow: auto;
   padding: 1.5rem;
   align-items: center;
@@ -202,12 +204,12 @@
   flex-direction: row;
   border-spacing: 2rem;
   min-width: min(50% , 600px);
-  overflow: visible;
+  overflow-x: scroll;
   white-space: nowrap;
 }
 
 .card {
-  position: relative;
+  position: sticky;
   margin: 1.25rem;
   padding: 2rem;
   text-align: left;
