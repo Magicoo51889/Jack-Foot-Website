@@ -12,19 +12,55 @@ const {pagename} = () => {
         </Head>
         
         <header className={styles.header}> 
-          <ul>
-              <ul><a href='directory'>{relevant links to pages}</a></ul>
-          </ul>
+          <div className={styles.horizontalGrid}>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <a href='/typescript'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src="/typescript.svg" alt="Typescript" width={45} height={45}/>
+                </span>
+              </p>
+            </a>
+          </Tilt>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <a href='/nodejs'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src={"/nodedotjs.svg"} alt="Node.js Logo" width={45} height={45} />
+                </span>
+              </p>
+            </a>
+          </Tilt>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <a href='/github'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src={"/github.svg"} alt="Github Logo" width={45} height={45} />
+                </span>
+              </p>
+            </a>
+          </Tilt>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <a href='/cSharp'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src="/csharp.svg" alt="C#" width={45} height={45}/>
+                </span>
+              </p>
+            </a>
+          </Tilt>
+          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <a href='/autodeskConfusion360'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src="/autodesk.svg" alt="autodesk logo" width={45} height={45}/>
+                </span>
+              </p>
+            </a>
+          </Tilt>
+        </div>
         </header>
 
-        <div className={styles.background}>
-          <div className={styles.smallmdball}/>
-          <div className={styles.massiveball}/>
-          <div className={styles.smallball}/>
-          <div className={styles.mediumball}/>
-          <div className={styles.largeball}/>
-        </div>
-        
         <footer className={styles.footer}> {/*Links to socials*/}
         <a
           href="https://www.linkedin.com/in/jackfoot51889/"
