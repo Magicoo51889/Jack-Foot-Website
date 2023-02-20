@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 let SocialIconSize = 44;
 
@@ -16,46 +17,46 @@ const TypescriptP = () => {
       <nav className={styles.globalnav}> 
           <ul className={styles.globalnavList}>
             <ul className={styles.globalnavItem}>
-              <a href='/'>
+              <Link href='/'>
                 <span>
                   Home
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='productDesign'>
+              <Link href='productDesign'>
                 <span>
                   Product Design
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/typescript'>
+              <Link href='/typescript'>
                 <span>
                   Typescript
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/nodejs'>
+              <Link href='/nodejs'>
                 <span>
                   Node.js
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/github'>
+              <Link href='/github'>
                 <span>
                   Github
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/cSharp'>
+              <Link href='/cSharp'>
                 <span>
                   C#
                 </span>
-              </a>
+              </Link>
             </ul>
           </ul>
       </nav>
