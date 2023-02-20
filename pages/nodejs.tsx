@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-let SocialIconSize = 44;
-
 const NodejsP = () => {
   return (
     <div className={styles.container}>
