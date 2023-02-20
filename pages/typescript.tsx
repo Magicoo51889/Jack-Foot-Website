@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 let SocialIconSize = 44;
 
@@ -13,52 +14,52 @@ const TypescriptP = () => {
         <link rel="icon" href="/JF.ico" />
       </Head>
       
-      <header className={styles.globalnav}> 
+      <nav className={styles.globalnav}> 
           <ul className={styles.globalnavList}>
             <ul className={styles.globalnavItem}>
-              <a href='/'>
+              <Link href='/'>
                 <span>
                   Home
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/typescript'>
+              <Link href='productDesign'>
+                <span>
+                  Product Design
+                </span>
+              </Link>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <Link href='/typescript'>
                 <span>
                   Typescript
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/nodejs'>
+              <Link href='/nodejs'>
                 <span>
                   Node.js
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/github'>
+              <Link href='/github'>
                 <span>
                   Github
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/cSharp'>
+              <Link href='/cSharp'>
                 <span>
                   C#
                 </span>
-              </a>
-            </ul>
-            <ul className={styles.globalnavItem}>
-              <a href='autodeskConfusion360'>
-                <span>
-                  Autodesk
-                </span>
-              </a>
+              </Link>
             </ul>
           </ul>
-      </header>
+      </nav>
 
       <main className={styles.main}>
         <h1 className={styles.title}>

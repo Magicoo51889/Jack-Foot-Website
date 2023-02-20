@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Tilt from 'react-parallax-tilt'
+import Link from 'next/link'
 
 let SocialIconSize = 44;
 let CardTiltAngle:number = 20;
@@ -20,48 +21,47 @@ const Home: NextPage = () => {
       <nav className={styles.globalnav}> 
           <ul className={styles.globalnavList}>
             <ul className={styles.globalnavItem}>
-              <a href='/'>
+              <Link href='/'>
                 <span>
                   Home
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/typescript'>
+              <Link href='productDesign'>
+                <span>
+                  Product Design
+                </span>
+              </Link>
+            </ul>
+            <ul className={styles.globalnavItem}>
+              <Link href='/typescript'>
                 <span>
                   Typescript
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/nodejs'>
+              <Link href='/nodejs'>
                 <span>
                   Node.js
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/github'>
+              <Link href='/github'>
                 <span>
                   Github
                 </span>
-              </a>
+              </Link>
             </ul>
             <ul className={styles.globalnavItem}>
-              <a href='/cSharp'>
+              <Link href='/cSharp'>
                 <span>
                   C#
                 </span>
-              </a>
+              </Link>
             </ul>
-            <ul className={styles.globalnavItem}>
-              <a href='autodeskConfusion360'>
-                <span>
-                  Autodesk
-                </span>
-              </a>
-            </ul>
-            
           </ul>
       </nav>
 
@@ -71,50 +71,50 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
+        <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <Link href='/productDesign'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src="/P-Logo.svg" alt="Jack Foot Logo" width={45} height={45}/>
+                </span>
+              </p>
+            </Link>
+          </Tilt>
           <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <a href='/typescript'>
+            <Link href='/typescript'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
                   <Image src="/typescript.svg" alt="Typescript Logo" width={45} height={45}/>
                 </span>
               </p>
-            </a>
+            </Link>
           </Tilt>
           <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <a href='/nodejs'>
+            <Link href='/nodejs'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
                   <Image src={"/nodedotjs.svg"} alt="Node.js Logo" width={45} height={45} />
                 </span>
               </p>
-            </a>
+            </Link>
           </Tilt>
           <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <a href='/github'>
+            <Link href='/github'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
                   <Image src={"/github.svg"} alt="Github Logo" width={45} height={45} />
                 </span>
               </p>
-            </a>
+            </Link>
           </Tilt>
           <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <a href='/cSharp'>
+            <Link href='/cSharp'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
                   <Image src="/csharp.svg" alt="C# Logo" width={45} height={45}/>
                 </span>
               </p>
-            </a>
-          </Tilt>
-          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <a href='/autodeskConfusion360'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src="/autodesk.svg" alt="Autodesk Logo" width={45} height={45}/>
-                </span>
-              </p>
-            </a>
+            </Link>
           </Tilt>
         </div>
         
