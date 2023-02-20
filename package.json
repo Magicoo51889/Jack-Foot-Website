@@ -28,5 +28,13 @@
     "jest": "^29.2.0",
     "jest-environment-jsdom": "^29.2.0",
     "typescript": "4.8.4"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "defaults",
+    "supports es6-module",
+    "maintained node versions",
+    "not dead",
+    "supports css-grid"
+  ]
 }
