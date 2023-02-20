@@ -27,6 +27,13 @@ const Home: NextPage = () => {
               </a>
             </ul>
             <ul className={styles.globalnavItem}>
+              <a href='productDesign'>
+                <span>
+                  Product Design
+                </span>
+              </a>
+            </ul>
+            <ul className={styles.globalnavItem}>
               <a href='/typescript'>
                 <span>
                   Typescript
@@ -54,14 +61,6 @@ const Home: NextPage = () => {
                 </span>
               </a>
             </ul>
-            <ul className={styles.globalnavItem}>
-              <a href='autodeskConfusion360'>
-                <span>
-                  Autodesk
-                </span>
-              </a>
-            </ul>
-            
           </ul>
       </nav>
 
@@ -71,6 +70,15 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
+        <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
+            <a href='/productDesign'>
+              <p className={styles.card}>
+                <span className={styles.logoInvert}>
+                  <Image src="/P-Logo.svg" alt="Jack Foot Logo" width={45} height={45}/>
+                </span>
+              </p>
+            </a>
+          </Tilt>
           <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <a href='/typescript'>
               <p className={styles.card}>
@@ -103,15 +111,6 @@ const Home: NextPage = () => {
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
                   <Image src="/csharp.svg" alt="C# Logo" width={45} height={45}/>
-                </span>
-              </p>
-            </a>
-          </Tilt>
-          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <a href='/autodeskConfusion360'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src="/autodesk.svg" alt="Autodesk Logo" width={45} height={45}/>
                 </span>
               </p>
             </a>
