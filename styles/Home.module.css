@@ -265,7 +265,7 @@
   max-width: auto;
   flex-direction: row;
   border-spacing: 2rem;
-  min-width: min(50% , 600px);
+  min-width: 0px;
   overflow-x: scroll;
   white-space: nowrap;
 }
@@ -324,10 +324,12 @@
   }
 }
 
-@media (max-width: 600px) {
-  .grid {
+@media (max-width: 950px) {
+  .twoOneGrid,
+  .twoThreeGrid {
     width: 100%;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
   .horizontalGrid{
     width: 100%;
