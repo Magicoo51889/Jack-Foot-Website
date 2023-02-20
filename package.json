@@ -30,7 +30,9 @@
     "typescript": "4.8.4"
   },
   "browserslist": [
-    "defaults and supports es6-module",
+    ">0.2%",
+    "defaults",
+    "supports es6-module",
     "maintained node versions",
     "not dead",
     "supports css-grid"
