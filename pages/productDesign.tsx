@@ -21,8 +21,7 @@ const autodeskP = () => {
             <div className={styles.gridChild} style={{background:'#F5F5F7'}}>
               <div className={styles.lightGreyColour}>
                 <div className={styles.twoThreeGrid}>
-                  <Image src="/P-Logo.webp" alt="Autodesk Logo" className={styles.gridChildImage} width={150} height={150}/>
-                  {/* <Image src=""/> */}
+                  <Image src="/NEA_Final_Design.png" alt='NEA Final Design' width={200} height={261}/>
                 </div>
               </div>
             </div>   
