@@ -12,15 +12,17 @@ const autodeskP = () => {
         </Head>
         
         <main className={styles.main}>
+
           <h1 className={styles.code} style={{background: '#F2382D', color:'white', textAlign:'center'}}>
             This page is still in active development, and is not yet complete. Thanks for your patience, and sorry for any inconvenience caused.
           </h1>
+
           <div className={styles.twoOneGrid}>
             <div className={styles.gridChild} style={{background:'#F5F5F7'}}>
               <div className={styles.lightGreyColour}>
                 <div className={styles.twoThreeGrid}>
-                  <Image src="/autodesk.svg" alt="Autodesk Logo" className={styles.gridChildImage} width={100} height={100} />
-
+                  <Image src="/P-Logo.webp" alt="Autodesk Logo" className={styles.gridChildImage} width={150} height={150}/>
+                  {/* <Image src=""/> */}
                 </div>
               </div>
             </div>   

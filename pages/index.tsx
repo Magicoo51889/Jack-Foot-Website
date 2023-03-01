@@ -1,10 +1,9 @@
-import type { NextPage } from 'next'
+import type { InferGetStaticPropsType, NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Tilt from 'react-parallax-tilt'
 import Link from '../components/NoScrollLink'
-
 
 let CardTiltAngle:number = 20;
 let CardPerspective:number = 2500;
@@ -28,7 +27,7 @@ const Home: NextPage = () => {
             <Link href='/productDesign'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src="/P-Logo.svg" alt="Jack Foot Logo" width={45} height={45}/>
+                  <Image src="/P-Logo.webp" alt="Jack Foot Logo" width={45} height={45} placeholder='blur' blurDataURL='data:...'/>
                 </span>
               </p>
             </Link>
@@ -37,7 +36,7 @@ const Home: NextPage = () => {
             <Link href='/typescript'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src="/typescript.svg" alt="Typescript Logo" width={45} height={45}/>
+                  <Image src="/typescript.webp" alt="Typescript Logo" width={45} height={45} placeholder='empty'/>
                 </span>
               </p>
             </Link>
@@ -46,7 +45,7 @@ const Home: NextPage = () => {
             <Link href='/nodejs'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src={"/nodedotjs.svg"} alt="Node.js Logo" width={45} height={45} />
+                  <Image src={"/nodedotjs.webp"} alt="Node.js Logo" width={45} height={45} placeholder='empty'/>
                 </span>
               </p>
             </Link>
@@ -55,7 +54,7 @@ const Home: NextPage = () => {
             <Link href='/github'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src={"/github.svg"} alt="Github Logo" width={45} height={45} />
+                  <Image src={"/github.webp"} alt="Github Logo" width={45} height={45} placeholder='empty'/>
                 </span>
               </p>
             </Link>
@@ -64,7 +63,7 @@ const Home: NextPage = () => {
             <Link href='/cSharp'>
               <p className={styles.card}>
                 <span className={styles.logoInvert}>
-                  <Image src="/csharp.svg" alt="C# Logo" width={45} height={45}/>
+                  <Image src="/csharp.webp" alt="C# Logo" width={45} height={45} placeholder='empty'/>
                 </span>
               </p>
             </Link>

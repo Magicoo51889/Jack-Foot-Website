@@ -9,29 +9,32 @@ const Footer = () : JSX.Element => (
               href="https://www.linkedin.com/in/jackfoot51889/"
               target="_blank"
               rel="noopener noreferrer"
+              placeholder='empty'
             >
               <span className={styles.logoInvert}>
-                <Image src="/linkedin.svg" alt="Linkedin Logo" width={SocialIconSize} height={SocialIconSize} />
+                <Image src="/linkedin.webp" alt="Linkedin Logo" width={SocialIconSize} height={SocialIconSize} />
               </span>
             </a>
             <a
             href="https://github.com/Magicoo51889"
             target="_blank"
             rel="noopener noreferrer"
+            placeholder='empty'
             >
               {' '}
               <span className={styles.logoInvert}>
-                <Image src="/github.svg" alt="Github Logo" width={SocialIconSize} height={SocialIconSize}/>
+                <Image src="/github.webp" alt="Github Logo" width={SocialIconSize} height={SocialIconSize}/>
               </span>
             </a>
             <a
             href="https://twitter.com/jjaffff"
             target="_blank"
             rel="noopener noreferrer"
+            placeholder='empty'
             >
               {' '}
               <span className={styles.logoInvert}>
-                <Image src="/twitter.svg" alt="Twitter Logo" width={SocialIconSize} height={SocialIconSize}/>
+                <Image src="/twitter.webp" alt="Twitter Logo" width={SocialIconSize} height={SocialIconSize}/>
               </span>
             </a>
           </footer>

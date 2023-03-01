@@ -251,7 +251,7 @@
 }
 
 .gridChildImage {
-  position: relative;
+  position: inherit;
 }
 
 .horizontalGrid {
