@@ -12,6 +12,9 @@
   text-rendering: optimizeLegibility;
   background-color: #FFFFFF;
   min-height: calc(100vh - 88px);
+  /* animation: fadein 1s;
+  animation-fill-mode: forwards; */
+  z-index: auto;
 }
 
 .header {
@@ -113,7 +116,7 @@
   background-color: #1D1D1F;
   align-self: center;
   justify-content: space-evenly;
-  z-index: 9998;
+  z-index: 9999;
 }
 
 .footer a,
@@ -159,6 +162,7 @@
   line-height: 1.15;
   font-size: 4rem;
   color: black;
+  font-weight: 800;
 }
 
 .smallTitle {
@@ -202,7 +206,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: transparent;
   color: black;
   border-radius: 5px;
   padding: 0.75rem;
@@ -251,7 +255,7 @@
 }
 
 .gridChildImage {
-  position: relative;
+  position: inherit;
 }
 
 .horizontalGrid {
@@ -290,7 +294,11 @@
 .card:hover,
 .card:focus,
 .card:active {
-  background-color: #000000bc;
+  /* background-color: #000000bc; */
+  border-color: #fff;
+  box-shadow: 0 0 60px 0 hsla(0,0%,100%,.5);
+  outline: 0;
+  animation: increaseSize5 0.5s both;
 }
 
 .card h2 {
@@ -312,7 +320,23 @@
 .background {
   filter: blur(100vw);
   position: absolute;
-  z-index: -1;
+  z-index: -50;
+}
+
+.grain {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -999;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets.website-files.com/61a6b59cc1578e2a2caf13c5/61ae57c4d73bf15eadf011b8_grain.gif");
+  background-position: 0 0;
+  background-size: auto;
+  opacity: .05;
 }
 
 @keyframes fadein {
@@ -321,6 +345,36 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes increaseSize5 {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.05;
+  }
+}
+
+@keyframes increaseSize10 {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
+
+@keyframes pauseFadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -353,4 +407,27 @@
   .card {
     background: #1D1D1F;
   }
+}
+
+.LoadingScreen{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1D1D1F;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  animation: pauseFadeOut 1s forwards;
+}
+
+.lottie{
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  margin: auto;
 }
