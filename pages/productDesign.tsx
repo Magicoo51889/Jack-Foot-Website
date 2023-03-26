@@ -27,7 +27,7 @@ const autodeskP = () => {
               </div>
             </div>   
             <div className={styles.gridChild}>
-              <h1 className={styles.title}>
+              <h1 className={styles.smallTitle}>
                 Product Design.
               </h1>
               <p className={styles.smallDescription}>
