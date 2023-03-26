@@ -13,7 +13,7 @@ const NodejsP = () => {
 
       <main className={styles.main}>
           <h1 className={styles.title}>
-              Node.js
+              Node
           </h1>
           <p className={styles.code}>
           This page is still in development! Thanks for your patience.
