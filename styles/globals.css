@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
 html,
 body {
   background-color: #1D1D1F;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, SF Pro Text, SF Pro Icons, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+  font-family:"Syne","-apple-system", "SF Pro Text", "SF Pro Icons", "BlinkMacSystemFont", "Helvetica Neue", "sans-serif";
   font-weight: 400;
   line-height: 1.53;
   min-width: 20%;
