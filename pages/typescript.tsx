@@ -13,7 +13,7 @@ const TypescriptP = () => {
       
       <main className={styles.main}>
         <h1 className={styles.title}>
-            TS
+            TypeScript
         </h1>
         <p className={styles.code}>
           This page is still in development! Thanks for your patience.
