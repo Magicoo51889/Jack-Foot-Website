@@ -81,7 +81,7 @@ const Home: NextPage = () => {
           <br/> I've also taken a key part in the development of my school's Greenpower racing car, which is a fully electric car that competes in the Greenpower Challenge. I was part of both Mechancial and Electrical Engineering elements of the car.
         </p>
         <p className={styles.description}>
-          I have a passion for product design and love the work of designers such as Dieter Rams and Jony Ive. The creation of innovative and functional products that meet the needs and wants of customers and it really interests me and other peoples work inspires me to make my own.<br/> Good product design has the potential to increase sales and profitability, as well as improve customer satisfaction and loyalty. Customer experience is a thing that I really care about as when I use a product I know that I want it to be easy to use and be intuitive. 
+          I have a massive passion for product design and love the work of designers such as Dieter Rams and Jony Ive. The creation of innovative and functional products that meet the needs and wants of customers and it really interests me and other peoples work inspires me to make my own.<br/> Good product design has the potential to increase sales and profitability, as well as improve customer satisfaction and loyalty. Customer experience is a thing that I really care about as when I use a product I know that I want it to be easy to use and be intuitive. 
         </p>
       </main>
     </div>
