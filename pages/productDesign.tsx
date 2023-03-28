@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Warning from '../components/UnfinishedWarn'
 import styles from '../styles/Home.module.css'
 
-const autodeskP = () => {
+const productDesignPage = () => {
   return (
     <div className={styles.container}>
         <Head>
@@ -13,17 +14,15 @@ const autodeskP = () => {
         </Head>
         
         <main className={styles.main}>
-
-          <h1 className={styles.code} style={{background: '#F2382D', color:'white', textAlign:'center'}}>
-            This page is still in active development, and is not yet complete. Thanks for your patience, and sorry for any inconvenience caused.
-          </h1>
-
           <div className={styles.twoOneGrid}>
             <div className={styles.gridChild} style={{background:'#F5F5F7'}}>
-              <div className={styles.lightGreyColour}>
-                <div className={styles.twoThreeGrid}>
-                  <Image src="/NEA_Final_Design.png" alt='NEA Final Design' width={200} height={261}/>
-                </div>
+              <div className={styles.twoThreeGrid}>
+                <Image src="/productDesignPage/NEA_Final_Design.png" alt='NEA Final Design' className={styles.gridChildImageVert} width={200} height={261}/>
+                <Image src="/productDesignPage/Loughborough_Design_Task.png" alt='Loughbororogh Design Task' className={styles.gridChildImageHoriz} width={261} height={200}/>
+                <Image src="/productDesignPage/Storage_Drawings.png" alt='Drawings' className={styles.gridChildImageHoriz} width={261} height={200}/>
+                <Image src="/productDesignPage/IMG_4128.png" alt='Pen Design' className={styles.gridChildImageHoriz} width={261} height={200}/>
+                <Image src="/productDesignPage/7C4EF3E1-1493-4BA3-A28B-0F7CFD3B5D56.png" alt='Lamp Design' className={styles.gridChildImageVert} width={200} height={261} />
+                <Image src="/productDesignPage/Hot_Glue_Gun_Red.png" alt='Hot Glue Gun Design' className={styles.gridChildImageHoriz} width={261} height={200}/>
               </div>
             </div>   
             <div className={styles.gridChild}>
@@ -50,4 +49,4 @@ const autodeskP = () => {
   )
 }
 
-export default autodeskP;
+export default productDesignPage;
