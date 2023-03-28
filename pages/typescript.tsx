@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Warning from '../components/UnfinishedWarn';
 import styles from '../styles/Home.module.css'
 
 const TypescriptP = () => {
@@ -15,8 +16,11 @@ const TypescriptP = () => {
         <h1 className={styles.title}>
             TypeScript
         </h1>
-        <p className={styles.code}>
-          This page is still in development! Thanks for your patience.
+        <p className={styles.description}>
+          Typescript is a typed superset of JavaScript that compiles to plain JavaScript. It provides types for variables, functions, and classes. It is a great tool for catching errors early and making code more readable.
+        </p>
+        <p className={styles.description}>
+          I have used typescript for a variety of uses that allow me to be able to easily make a program that is easy to read and understand. This website for example is made using react and typescript which allow the site to be type safe and less likely to have errors.
         </p>
       </main>
     </div>
