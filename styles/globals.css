@@ -48,3 +48,12 @@ a {
 *::-webkit-scrollbar {
   display: none;
 }
+::-moz-selection {
+  background: #D3AD40;
+}
+::-webkit-selection {
+  background: #D3AD40;
+}
+::selection {
+  background: #D3AD40;
+}

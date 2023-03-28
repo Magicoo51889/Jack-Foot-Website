@@ -160,15 +160,16 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 8vw;
   color: black;
   font-weight: 800;
+  align-self: center;
 }
 
 .smallTitle {
   margin: 0;
   line-height: 1.15;
-  font-size: 2rem;
+  font-size: 7vw;
   color: black;
 }
 
@@ -218,7 +219,6 @@
 .twoOneGrid {
   position: static;
   min-width: 100vw;
-  height: auto;
   display: grid;
   top: 0;
   left: 0;
@@ -248,14 +248,22 @@
   position: relative;
   align-items: center;
   text-align: center;
-  min-width: 100%;
-  min-height: 100%;
   grid-column: auto;
   align-content: center;
+  padding-bottom: 0;
 }
 
-.gridChildImage {
-  position: inherit;
+.gridChildImageVert{
+  position: relative;
+  scale: 0.9;
+  margin: auto;
+}
+
+.gridChildImageHoriz{
+  position: relative;
+  scale: 1.2;
+  margin: auto;
+
 }
 
 .horizontalGrid {
@@ -378,18 +386,58 @@
   }
 }
 
-@media (max-width: 950px) {
-  .twoOneGrid,
+@media screen and (max-width: 1400px) {
+  .twoOneGrid {
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+  }
+  .gridChildImage{
+    scale: 1.1;
+  }
   .twoThreeGrid {
     width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
   }
   .horizontalGrid{
     width: 100%;
     flex-direction: row;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .twoThreeGrid{
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .twoThreeGrid{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .twoThreeGrid{
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-direction: column;
+  }
+  .gridChild{
+    margin-bottom: 0;
+  }
+}
+
 
 @media (prefers-color-scheme: dark) {
   .card,
@@ -420,7 +468,7 @@
   background-color: #1D1D1F;
   z-index: 10000;
   width: 100%;
-  height: 100%;
+  height: 200vh;
   animation: pauseFadeOut 1s forwards;
 }
 
