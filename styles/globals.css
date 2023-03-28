@@ -49,11 +49,11 @@ a {
   display: none;
 }
 ::-moz-selection {
-  background: #D3AD40;
+  background: #F7A531;
 }
 ::-webkit-selection {
-  background: #D3AD40;
+  background: #F7A531;
 }
 ::selection {
-  background: #D3AD40;
+  background: #F7A531;
 }
