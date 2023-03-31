@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-let SocialIconSize = 44;
+const SocialIconSize:number = 44;
 
 const Footer = () : JSX.Element => (
     <footer className={styles.footer}> {/*Links to socials*/}

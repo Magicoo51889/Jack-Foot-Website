@@ -1,13 +1,7 @@
-import type { InferGetStaticPropsType, NextPage } from 'next'
-import React, { useEffect, useRef, useState } from 'react'
+import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Tilt from 'react-parallax-tilt'
-import Link from '../components/NoScrollLink'
-
-let CardTiltAngle:number = 20;
-let CardPerspective:number = 2500;
+import TiltCard from '../components/Image_Tilt_Card'
 
 const Home: NextPage = () => {      
   return (
@@ -25,51 +19,11 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
-        <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <Link href='/productDesign'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src="/P-Logo.webp" alt="Jack Foot Logo" width={45} height={45} placeholder='blur' blurDataURL='data:...'/>
-                </span>
-              </p>
-            </Link>
-          </Tilt>
-          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <Link href='/typescript'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src="/typescript.webp" alt="Typescript Logo" width={45} height={45} placeholder='empty'/>
-                </span>
-              </p>
-            </Link>
-          </Tilt>
-          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <Link href='/nodejs'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src={"/nodedotjs.webp"} alt="Node.js Logo" width={45} height={45} placeholder='empty'/>
-                </span>
-              </p>
-            </Link>
-          </Tilt>
-          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <Link href='/github'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src={"/github.webp"} alt="Github Logo" width={45} height={45} placeholder='empty'/>
-                </span>
-              </p>
-            </Link>
-          </Tilt>
-          <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
-            <Link href='/cSharp'>
-              <p className={styles.card}>
-                <span className={styles.logoInvert}>
-                  <Image src="/csharp.webp" alt="C# Logo" width={45} height={45} placeholder='empty'/>
-                </span>
-              </p>
-            </Link>
-          </Tilt>
+          <TiltCard w={45} h={45} image={"/P-Logo.webp"} alt={"Jack Foot Logo"}/>
+          <TiltCard w={45} h={45} image={"/typescript.webp"} alt={"Typescript Logo"}/>
+          <TiltCard w={45} h={45} image={"/nodedotjs.webp"} alt={"Node.js Logo"}/>
+          <TiltCard w={45} h={45} image={"/github.webp"} alt={"Github Logo"}/>
+          <TiltCard w={45} h={45} image={"/csharp.webp"} alt={"C# Logo"}/>
         </div>
         
         <p className={styles.description}>

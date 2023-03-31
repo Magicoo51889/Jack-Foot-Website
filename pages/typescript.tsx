@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import Warning from '../components/UnfinishedWarn';
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 const TypescriptP = () => {
   return (
@@ -11,20 +10,30 @@ const TypescriptP = () => {
         <link rel="icon" href="/JF.ico" />
         <noscript> You need to enable Javascript to run this website </noscript>
       </Head>
-      
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-            TypeScript
-        </h1>
+        <h1 className={styles.title}>TypeScript</h1>
         <p className={styles.description}>
-          Typescript is a typed superset of JavaScript that compiles to plain JavaScript. It provides types for variables, functions, and classes. It is a great tool for catching errors early and making code more readable.
+          Typescript is a typed superset of JavaScript that compiles to plain
+          JavaScript. It provides types for variables, functions, and classes.
+          It is a great tool for catching errors early and making code more
+          readable.
         </p>
         <p className={styles.description}>
-          I have used typescript for a variety of uses that allow me to be able to easily make a program that is easy to read and understand. This website for example is made using react and typescript which allow the site to be type safe and less likely to have errors.
+          I have used typescript for a variety of uses that allow me to be able
+          to easily make a program that is easy to read and understand. This
+          website for example is made using react and typescript which allow the
+          site to be type safe and less likely to have errors. Additionally
+          Typescript (and Javascript) are really easy and intuitive to use and
+          learn, with easy to understand syntax and extensive documentation and
+          guides online, that you can build upon and add to your own projects. I
+          find that Typescript is a great tool for beginners and experienced
+          programmers alike, as it can be easily adapted to a multitude of
+          different projects and uses.
         </p>
       </main>
     </div>
-  )
-}
+  );
+};
 
 export default TypescriptP;
