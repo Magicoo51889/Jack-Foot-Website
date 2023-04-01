@@ -6,14 +6,14 @@ const CardTiltAngle:number = 20;
 const CardPerspective:number = 2500;
 
 interface TiltCardProps {
-    w: number;
-    h: number;
     image: string;
     alt: string;
+    w: number;
+    h: number;
 }
 
 const TiltCard = (props:TiltCardProps): JSX.Element => {
-    const {w, h, image, alt} = props;
+    const {image, alt, w, h} = props;
     return(
         <Tilt tiltMaxAngleX={CardTiltAngle} perspective={CardPerspective} gyroscope={true} tiltReverse={true}>
             <p className={styles.card}>
