@@ -3,6 +3,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import TiltCard from '../components/Image_Tilt_Card'
 
+const TCS = 45; // Tilt Card Size
+
 const Home: NextPage = () => {      
   return (
     <div className={styles.container}>
@@ -19,11 +21,11 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
-          <TiltCard w={45} h={45} image={"/P-Logo.webp"} alt={"Jack Foot Logo"}/>
-          <TiltCard w={45} h={45} image={"/typescript.webp"} alt={"Typescript Logo"}/>
-          <TiltCard w={45} h={45} image={"/nodedotjs.webp"} alt={"Node.js Logo"}/>
-          <TiltCard w={45} h={45} image={"/github.webp"} alt={"Github Logo"}/>
-          <TiltCard w={45} h={45} image={"/csharp.webp"} alt={"C# Logo"}/>
+          <TiltCard image={"/P-Logo.webp"} alt={"Jack Foot Logo"} link={"/productDesign"} w={TCS} h={TCS} />
+          <TiltCard image={"/typescript.webp"} alt={"Typescript Logo"} link={"/typescript"} w={TCS} h={TCS} />
+          <TiltCard image={"/nodedotjs.webp"} alt={"Node.js Logo"} link={"/nodejs"} w={TCS} h={TCS} />
+          <TiltCard image={"/github.webp"} alt={"Github Logo"} link={"/github"} w={TCS} h={TCS} />
+          <TiltCard image={"/csharp.webp"} alt={"C# Logo"} link={"/cSharp"} w={TCS} h={TCS} />
         </div>
         
         <p className={styles.description}>
