@@ -21,7 +21,7 @@ const TiltCard = (props:TiltCardProps): JSX.Element => {
             <Link href={link} >
                 <p className={styles.card}>
                     <span className={styles.logoInvert}>
-                        <Image src={image} alt={alt} width={w} height={h} placeholder='blur' blurDataURL='data:...'/>
+                        <Image src={image} alt={alt} width={w} height={h} placeholder='blur' blurDataURL='data:...' loading='lazy' decoding='async'/>
                     </span>
                 </p>
             </Link>
