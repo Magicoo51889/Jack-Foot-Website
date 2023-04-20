@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-const TypescriptP = () => {
+const programmingP = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,12 +12,12 @@ const TypescriptP = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>TypeScript</h1>
+        <h1 className={styles.title}>Programming</h1>
         <p className={styles.description}>
-          Typescript is a typed superset of JavaScript that compiles to plain
-          JavaScript. It provides types for variables, functions, and classes.
-          It is a great tool for catching errors early and making code more
-          readable.
+          I mainly use Typescript which is a typed superset of JavaScript that
+          compiles to plain JavaScript. It provides types for variables,
+          functions, and classes. It is a great tool for catching errors early
+          and making code more readable.
         </p>
         <p className={styles.description}>
           I have used typescript for a variety of uses that allow me to be able
@@ -31,9 +31,18 @@ const TypescriptP = () => {
           programmers alike, as it can be easily adapted to a multitude of
           different projects and uses.
         </p>
+        <p className={styles.description}>
+          In addition to those I have also used C#, WPF and XAML which I used
+          whilst doing my Renishaw Work Experience week. I really enjoyed
+          using C#, and found the syntax to make lots of sense and I loved
+          creating an application that we could interact and use. We used Visual
+          Studio to create the program and this meant that we were able to
+          easily create unit tests and this helped to make sure that modules we
+          made would work before building the application.
+        </p>
       </main>
     </div>
   );
 };
 
-export default TypescriptP;
+export default programmingP;

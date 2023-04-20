@@ -21,11 +21,9 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
-          <TiltCard image={"/P-Logo.webp"} alt={"Jack Foot Logo"} link={"/productDesign"} w={TCS} h={TCS} />
-          <TiltCard image={"/typescript.webp"} alt={"Typescript Logo"} link={"/typescript"} w={TCS} h={TCS} />
-          <TiltCard image={"/nodedotjs.webp"} alt={"Node.js Logo"} link={"/nodejs"} w={TCS} h={TCS} />
-          <TiltCard image={"/github.webp"} alt={"Github Logo"} link={"/github"} w={TCS} h={TCS} />
-          <TiltCard image={"/csharp.webp"} alt={"C# Logo"} link={"/cSharp"} w={TCS} h={TCS} />
+          <TiltCard image={"/HammerPD.svg"} alt={"Jack Foot Logo"} link={"/productDesign"} w={TCS} h={TCS} />
+          <TiltCard image={"/devdotto.svg"} alt={"Typescript Logo"} link={"/programming"} w={TCS} h={TCS} />
+          <TiltCard image={"/files.svg"} alt={"null"} link={"/about"} w={TCS} h={TCS} />
         </div>
         
         <p className={styles.description}>

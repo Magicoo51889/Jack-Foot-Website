@@ -168,6 +168,7 @@
 
 .smallTitle {
   margin: 0;
+  padding: 0 2rem;
   line-height: 1.15;
   font-size: 7vw;
   color: black;
@@ -194,7 +195,8 @@
 
 .smallDescription {
   color: black;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  padding: 0rem 2rem;
   line-height: 1.5;
   font-size: 1rem;
   width: 100%;
@@ -244,7 +246,7 @@
 
 .gridChild {
   top: 0;
-  padding: 2rem;
+  padding: auto;
   position: relative;
   align-items: center;
   text-align: center;
@@ -253,24 +255,40 @@
   padding-bottom: 0;
 }
 
+.gridSquareImage {
+  position: relative;
+  width: 75%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  filter: contrast(1.1);
+  filter: saturate(1.2);
+  border-radius: 2.5%;
+}
+
 .gridChildImageVert{
   position: relative;
   scale: 0.9;
   margin: auto;
+  filter: contrast(1.1);
+  filter: saturate(1.2);
 }
 
 .gridChildImageHoriz{
   position: relative;
   scale: 1.2;
   margin: auto;
-
+  filter: contrast(1.1);
+  filter: saturate(1.2);
 }
 
 .horizontalGrid {
   position: relative;
   width: fit-content;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 columns. To add more add more '1fr's */
+  grid-template-columns: 1fr 1fr 1fr; /* 3 columns. To add more add more '1fr's */
   overflow: auto;
   padding: 1.5rem;
   align-items: center;
