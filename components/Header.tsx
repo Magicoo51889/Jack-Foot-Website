@@ -19,30 +19,16 @@ const Header = () : JSX.Element => (
                 </Link>
                 </ul>
                 <ul className={styles.globalnavItem}>
-                <Link href='/typescript'>
+                <Link href='/programming'>
                     <span>
-                    Typescript
+                    Programming
                     </span>
                 </Link>
                 </ul>
                 <ul className={styles.globalnavItem}>
-                <Link href='/nodejs'>
+                <Link href='/about'>
                     <span>
-                    Node.js
-                    </span>
-                </Link>
-                </ul>
-                <ul className={styles.globalnavItem}>
-                <Link href='/github'>
-                    <span>
-                    Github
-                    </span>
-                </Link>
-                </ul>
-                <ul className={styles.globalnavItem}>
-                <Link href='/cSharp'>
-                    <span>
-                    C#
+                    About
                     </span>
                 </Link>
                 </ul>
