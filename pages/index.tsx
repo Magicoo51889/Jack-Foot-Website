@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import TiltCard from '../components/Image_Tilt_Card'
 
-const TCS = 45; // Tilt Card Size
+const TCS = 75; // Tilt Card Size
 
 const Home: NextPage = () => {      
   return (
@@ -21,9 +21,9 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.horizontalGrid}>
-          <TiltCard image={"/HammerPD.svg"} alt={"Jack Foot Logo"} link={"/productDesign"} w={TCS} h={TCS} />
+          <TiltCard image={"/HMChair.svg"} alt={"Jack Foot Logo"} link={"/productDesign"} w={TCS} h={TCS} />
           <TiltCard image={"/devdotto.svg"} alt={"Typescript Logo"} link={"/programming"} w={TCS} h={TCS} />
-          <TiltCard image={"/files.svg"} alt={"null"} link={"/about"} w={TCS} h={TCS} />
+          <TiltCard image={"/profile.svg"} alt={"null"} link={"/about"} w={TCS} h={TCS} />
         </div>
         
         <p className={styles.description}>
