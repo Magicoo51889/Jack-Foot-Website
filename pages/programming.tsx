@@ -14,7 +14,9 @@ const programmingP = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Programming</h1>
         <p className={styles.description}>
-          I mainly use Typescript which is a typed superset of JavaScript that
+          I have been programming since 2021 and have learnt a lot of different
+          languages and technologies, whether that be in school or due to my own
+          interest. I mainly use Typescript which is a typed superset of JavaScript that
           compiles to plain JavaScript. It provides types for variables,
           functions, and classes. It is a great tool for catching errors early
           and making code more readable.
@@ -33,12 +35,12 @@ const programmingP = () => {
         </p>
         <p className={styles.description}>
           In addition to those I have also used C#, WPF and XAML which I used
-          whilst doing my Renishaw Work Experience week. I really enjoyed
-          using C#, and found the syntax to make lots of sense and I loved
-          creating an application that we could interact and use. We used Visual
-          Studio to create the program and this meant that we were able to
-          easily create unit tests and this helped to make sure that modules we
-          made would work before building the application.
+          whilst doing my Renishaw Work Experience week. I really enjoyed using
+          C#, and found the syntax to make lots of sense and I loved creating an
+          application that we could interact and use. We used Visual Studio to
+          create the program and this meant that we were able to easily create
+          unit tests and this helped to make sure that modules we made would
+          work before building the application.
         </p>
       </main>
     </div>
