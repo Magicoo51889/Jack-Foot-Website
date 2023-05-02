@@ -5,6 +5,6 @@ done.
 
 For the main site, visit [this link](https://jack-foot-website.vercel.app/)
 
-For the development site, visit [this link](https://jack-foot-website-dev.vercel.app/)
+For the development site, visit [this link](https://jack-foot-website-dev.vercel.app/) (may look identical)
 
 Enjoy!
