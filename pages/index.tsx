@@ -10,14 +10,6 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Jack Foot | Home</title>
-        <meta name="description" content="A portfolio of my skills, and projects that I have worked on." />
-        <meta property="og:image" content="./public/JF.ico"></meta>
-        <meta property="og:title" content="Jack Foot Portfolio Website"></meta>
-        <meta property="og:description" content="A portfolio of my skills, and projects that I have worked on." />
-        <meta property="og:url" content="https://jack-foot-website.vercel.app/"></meta>
-        <meta property="twitter:card" content="summary_large_image"></meta>
-        <link rel="icon" href="/JF.ico" />
-        <noscript> You need to enable Javascript to run this website </noscript>
       </Head>
 
       <main className={styles.main}>
