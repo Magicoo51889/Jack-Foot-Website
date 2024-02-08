@@ -13,7 +13,7 @@ const AboutP = () => {
           <div className={styles.twoOneGridItem}>
             <div className={styles.gridChild}>
               <Image
-                src={"/AboutMePage/MeV2.avif"}
+                src={"/AboutMePage/Me.jpeg"}
                 alt={"Jack Foot Logo"}
                 className={styles.gridSquareImage}
                 width={700}
