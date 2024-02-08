@@ -16,9 +16,9 @@ const productDesignPage = () => {
                 <Image src="/productDesignPage/NEA_Final_Design.png" alt='NEA Final Design' className={styles.gridChildImageVert} width={200} height={261} loading='lazy'/>
                 <Image src="/productDesignPage/Loughborough_Design_Task.avif" alt='Loughbororogh Design Task' className={styles.gridChildImageHoriz} width={261} height={200} loading='lazy'/>
                 <Image src="/productDesignPage/Storage_Drawings.avif" alt='Drawings' className={styles.gridChildImageHoriz} width={261} height={200} loading='lazy'/>
-                <Image src="/productDesignPage/IMG_4128.avif" alt='Pen Design' className={styles.gridChildImageHoriz} width={261} height={200} loading='lazy'/>
+                <Image src="/productDesignPage/Week 4 Sketches.jpg" alt='Ideation Page' className={styles.gridChildImageHoriz} width={261} height={200} loading='lazy'/>
                 <Image src="/productDesignPage/7C4EF3E1-1493-4BA3-A28B-0F7CFD3B5D56.png" alt='Lamp Design' className={styles.gridChildImageVert} width={200} height={261} loading='lazy'/>
-                <Image src="/productDesignPage/Hot_Glue_Gun_Red.avif" alt='Hot Glue Gun Design' className={styles.gridChildImageHoriz} width={261} height={200} loading='lazy'/>
+                <Image src="/productDesignPage/20231026_234759284_iOS.png" alt='Projector Design Page' className={styles.gridChildImageVert} width={200} height={261} loading='lazy'/>
               </div>
             </div>   
             <div className={styles.gridChild}>

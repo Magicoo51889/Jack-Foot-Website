@@ -8,7 +8,6 @@ const AboutP = () => {
       <Head>
         <title>Jack Foot | About</title>
       </Head>
-
       <main className={styles.main}>
         <div className={styles.twoOneGrid}>
           <div className={styles.twoOneGridItem}>
@@ -24,7 +23,7 @@ const AboutP = () => {
             </div>
           </div>
           <div className={styles.twoOneGridItem}>
-            <h1 className={styles.smallTitle}>About</h1>
+            <h1 className={styles.smallTitle}>About.</h1>
             <p className={styles.smallDescription}>
               I am a student and currently studying Product Design, Physics and
               Computer Science A-Levels. Product Design is my favourite subject
@@ -37,16 +36,6 @@ const AboutP = () => {
               a thing that I really care about as when I use a product I know
               that I want it to be easy to use and be intuitive, as well as
               create a great experience when using it.
-            </p>
-            <p className={styles.smallDescription}>
-              I have also taken a key part in the development of my school's
-              Greenpower racing car, which is a fully electric car that competes
-              in the Greenpower Challenge. I was part of both Mechancial and
-              Electrical Engineering elements of the car. This has developed my
-              skills in electrical circuits alongside my work in Physics, which
-              has helped me to understand the fundamentals of electricity and
-              how it works such as with potential divider circuits and
-              Kirchoff's laws just as examples.
             </p>
             <p className={styles.smallDescription}>
               I am deeply interested in cars too, both in terms of the design
@@ -69,15 +58,6 @@ const AboutP = () => {
               is at speed, even at a stand still. Simply put, it is a work of
               art.
             </p>
-            <p className={styles.smallDescription}>
-              Whilst I say that the Porsche 930 Turbo is my favourite car, that
-              doesn't mean to say there haven't been better iterations of the
-              classic. The Singer 911 is a modern take on the 911, with a modern
-              engine and drivetrain, but with the classic body and interior. The
-              car is a masterpiece, and is a perfect example of how to modernise
-              a classic car, whilst keeping the classic look and feel.
-            </p>
-            
           </div>
         </div>
       </main>

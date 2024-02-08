@@ -14,21 +14,21 @@ const Header = () : JSX.Element => (
                 <ul className={styles.globalnavItem}>
                 <Link href='productDesign'>
                     <span>
-                    Product Design
+                    Product Design.
                     </span>
                 </Link>
                 </ul>
                 <ul className={styles.globalnavItem}>
                 <Link href='/programming'>
                     <span>
-                    Programming
+                    Code.
                     </span>
                 </Link>
                 </ul>
                 <ul className={styles.globalnavItem}>
                 <Link href='/about'>
                     <span>
-                    About
+                    About.
                     </span>
                 </Link>
                 </ul>
