@@ -26,6 +26,9 @@ const programmingP = () => {
               create electronic features for products I develop. This allows me to
               produce more interactive and technically advanced products.
             </p>
+            <p className={styles.smallDescription}>
+              You can find the projects I have worked on, on my Github Page, which is linked at the bottom of the page. 
+            </p>
           </div>
           <div className={styles.gridChild}>
             <Image src={"/programmingPage/TypescriptProgramming.avif"} alt={"TypeScript Programming Example"} className={styles.gridImage} width={1008} height={894} loading="lazy"/>
