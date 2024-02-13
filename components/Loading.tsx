@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/components.module.css";
 
 const LoadingScreen: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);

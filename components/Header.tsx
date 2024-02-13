@@ -1,5 +1,5 @@
 import Link from './NoScrollLink'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/components.module.css'
 
 const Header = () : JSX.Element => (
     <nav className={styles.globalnav}> 
