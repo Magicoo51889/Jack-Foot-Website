@@ -42,21 +42,21 @@ const Home: NextPage = () => {
           Hey I'm Jack.
           <br /> Currently I'm studying Product Design and Technology (BSc) at
           Loughborough University. This course provides me an understanding of
-          both designing a product on an artistic level, and also the skills to
-          be able to see through the engineering and manufacture of the product
-          on a technical level by incorporating the use of CAD and CAM software
-          as well as using engineering principles to help me decide if my
-          products will be able to hold up to day to day use.
+          designing products to match or even exceed the outlined brief. I spend
+          my freetime sketching, sim racing and exploring new designs and
+          technologies. I take part in the university's karting league and I am
+          part of the motor society and design society, which gives me access to
+          workshops and tools to help me develop my skills and knowledge.
         </p>
         <p className={styles.description}>
-          I have a passion for product design and love the work of designers
-          such as Dieter Rams and Jony Ive. The creation of innovative and
-          functional products that meet the needs and wants of customers and it
-          really interests me and other peoples work inspires me to make my own.
+          I love the work of designers such as Dieter Rams Jony Ive and design
+          agency Teenage Engineering. The creation of innovative and functional
+          products that meet the needs and wants of customers and it really
+          interests me and other peoples work inspires me to make my own.
           <br /> Good product design has the potential to increase sales and
           profitability, as well as improve customer satisfaction and loyalty.
           Customer experience is a thing that I really care about as when I use
-          a product I know that I want it to be easy to use and be intuitive.
+          a product, I know that I want it to be easy to use and be intuitive.
         </p>
       </main>
     </div>
