@@ -1,6 +1,6 @@
 import Tilt from 'react-parallax-tilt';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/components.module.css';
 import Link from '../components/NoScrollLink';
 
 const CardTiltAngle:number = 20;
