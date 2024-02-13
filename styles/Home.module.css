@@ -162,7 +162,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 6.5vw;
+  font-size: max(6.5vw, 3rem);
   color: black;
   font-weight: 800;
   align-self: center;
@@ -172,8 +172,9 @@
   margin: 0;
   padding: 0 2rem;
   line-height: 1.15;
-  font-size: 6vw;
+  min-width: min(20%, 1024px);
   color: black;
+  font-size: max(6vw, 2rem);
 }
 
 .title,
@@ -389,6 +390,41 @@
   opacity: .05;
 }
 
+
+.aboutImage{
+  width: 700px;
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("/AboutMePage/Me.jpeg");
+  position: relative;
+  max-height: 700px;
+  max-width: 700px;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  filter: contrast(1.1);
+  filter: saturate(1.2);
+  border-radius: 2.5%;
+}
+
+.codeImage{
+  width: 700px;
+  height: calc(700px/1.1275167785);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("/programmingPage/TypescriptProgramming.png");
+  position: relative;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  filter: contrast(1.1);
+  filter: saturate(1.2);
+  border-radius: 2.5%;
+}
+
+
+
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -428,6 +464,18 @@
   }
 }
 
+
+@media screen and (max-width: 1600px) {
+  .aboutImage{
+    width: 40vw;
+    height: 40vw;
+  }
+  .codeImage{
+    width: 40vw;
+    height: calc(40vw/1.1275167785);
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .twoOneGrid {
     width: 100%;
@@ -451,6 +499,14 @@
   .globalnav {
     padding: 0 6rem;
   }
+  .aboutImage{
+    width: 60vw;
+    height: 60vw;
+  }
+  .codeImage{
+    width: 60vw;
+    height: calc(60vw/1.1275167785);
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -465,6 +521,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     flex-direction: column;
+  }
+  .gridChild{
+    padding: 1rem;
   }
 }
 
@@ -499,6 +558,7 @@
   .globalnav {
     padding: 0 4rem;
   }
+  
 }
 
 @media screen and (max-width: 450px) {

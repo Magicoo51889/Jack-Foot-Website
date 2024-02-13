@@ -31,7 +31,9 @@ const programmingP = () => {
             </p>
           </div>
           <div className={styles.gridChild}>
-            <Image src={"/programmingPage/TypescriptProgramming.avif"} alt={"TypeScript Programming Example"} className={styles.gridImage} width={1008} height={894} loading="lazy"/>
+            {/* <Image src={"/programmingPage/TypescriptProgramming.avif"} alt={"TypeScript Programming Example"} className={styles.gridImage} width={1008} height={894} loading="lazy"/> */}
+            <figure className={styles.codeImage}>
+            </figure>
           </div>
         </div>
       </main>
