@@ -6,7 +6,7 @@ const AboutP = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Jack Foot | About</title>
+        <title>Jack Foot | About.</title>
       </Head>
       <main className={styles.main}>
         <div className={styles.twoOneGrid}>

@@ -6,7 +6,7 @@ const programmingP = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Jack Foot | Programming</title>
+        <title>Jack Foot | Code.</title>
       </Head>
 
       <main className={styles.main}>

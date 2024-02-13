@@ -1,6 +1,6 @@
 .main {
   min-width: min(20%, 1024px);
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
@@ -31,7 +31,6 @@
 
 .globalnav {
   position: fixed;
-  align-content: center;
   direction: ltr;
   top: 0;
   right: 0;
@@ -39,7 +38,7 @@
   z-index: 9999;
   display: block;
   margin: 0 auto;
-  padding: 0 7.5%;
+  padding: 0 9rem;
   width: 100%;
   min-width: min(20%, 1024px);
   height: 48px;
@@ -62,10 +61,10 @@
   cursor: default;
   align-self: center;
   text-align: left;
-  margin: 8px -9px;
-  width: auto;
+  margin: 8px 0;
+  width: 100%;
   padding: 0 0%;
-  height: 44px;
+  height: min-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,10 +81,11 @@
 .globalnavItem {
   -webkit-box-sizing: border-box;
   align-content: center;
+  align-self: center;
+  text-align: left;
   box-sizing: border-box;
   display: inline-block;
   position: relative;
-  text-align: left;
   height: 44px;
   z-index: 1;
   vertical-align: top;
@@ -99,6 +99,8 @@
   top: initial;
   overflow: visible;
   white-space: nowrap;
+  width: auto;
+  height: min-content;
 }
 
 .footer {
@@ -446,6 +448,9 @@
     width: 100%;
     flex-direction: row;
   }
+  .globalnav {
+    padding: 0 6rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -470,6 +475,9 @@
     grid-template-rows: 1fr 1fr 1fr;
     flex-direction: column;
   }
+  .globalnav {
+    padding: 0 6rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -487,6 +495,15 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     flex-direction: column;
+  }
+  .globalnav {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .globalnav{
+    padding: 0 1rem;
   }
 }
 
