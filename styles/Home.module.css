@@ -67,10 +67,10 @@
   margin: 0;
   padding: 0.25rem 2rem;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: 100%;
   background: inherit;
-  font-weight: 400;
+  font-weight: 550;
   line-height: 1.53;
   min-width: min(20%, 1024px);
   overflow: hidden;
@@ -82,7 +82,7 @@
   margin: 0;
   padding: 0.25rem 4rem;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.25rem;
   width: 100%;
   background: inherit;
   font-weight: 400;
@@ -384,7 +384,12 @@
   .globalnav {
     padding: 0 4rem;
   }
-  
+  .description{
+    font-size: 1rem;
+  }
+  .smallDescription{
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
