@@ -6,7 +6,7 @@ const productDesignPage = () => {
   return (
     <div className={styles.container}>
         <Head>
-          <title>Jack Foot | Product Design</title>
+          <title>Jack Foot | Product Design.</title>
         </Head>
         
         <main className={styles.main}>

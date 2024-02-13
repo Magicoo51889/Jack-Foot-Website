@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Jack Foot | Home</title>
+        <title>Jack Foot | Home.</title>
       </Head>
 
       <main className={styles.main}>
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <TiltCard
             image={"/devdotto.svg"}
             alt={"Typescript Logo"}
-            link={"/programming"}
+            link={"/code"}
             w={TCS}
             h={TCS}
           />
