@@ -61,10 +61,10 @@
   cursor: default;
   align-self: center;
   text-align: left;
-  margin: 8px -9px;
-  width: auto;
+  margin: 8px 0;
+  width: 100%;
   padding: 0 0%;
-  height: 44px;
+  height: min-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,10 +81,11 @@
 .globalnavItem {
   -webkit-box-sizing: border-box;
   align-content: center;
+  align-self: center;
+  text-align: left;
   box-sizing: border-box;
   display: inline-block;
   position: relative;
-  text-align: left;
   height: 44px;
   z-index: 1;
   vertical-align: top;
@@ -98,6 +99,8 @@
   top: initial;
   overflow: visible;
   white-space: nowrap;
+  width: auto;
+  height: min-content;
 }
 
 .footer {
