@@ -1,8 +1,8 @@
 .main {
   min-width: min(20%, 1024px);
   padding-top: 5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 0;
+  padding-right: 0;
   padding-bottom: 2rem;
   flex: 1;
   display: flex;
@@ -80,7 +80,7 @@
 .smallDescription {
   color: black;
   margin: 0;
-  padding: 0.25rem 4rem;
+  padding: 0.25rem 5rem;
   line-height: 1.5;
   font-size: 1.25rem;
   width: 100%;
